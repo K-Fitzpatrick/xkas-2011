@@ -43,7 +43,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <TargetName>xkas</TargetName>
-    <OutDir>$(SolutionDir)$(Configuration)\Libraries\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\Libraries\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
