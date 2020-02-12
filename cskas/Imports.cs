@@ -5,7 +5,7 @@ namespace xkas
 {
     public static unsafe partial class cskas
     {
-        public const string DLLPath = @"Libraries\xkas.dll";
+        public const string DLLPath = @"xkas.dll";
 
         [DllImport(cskas.DLLPath)]
         private static extern void xInitializeAsmData(string path);
