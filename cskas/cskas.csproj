@@ -73,7 +73,7 @@
   <ItemGroup>
     <Content Include="..\xkas-dll\bin\xkas.dll">
       <Link>xkas.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
